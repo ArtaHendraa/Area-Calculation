@@ -12,9 +12,9 @@ I am a student with a strong interest in web development. I believe that learnin
 
 In this repository, you will find various projects that I have completed. These projects cover a range of topics, including:
 
-- [Project Name 1]([link_to_project_1](https://github.com/ArtaHendraa/PBL/tree/main/Area%20Calculation)):
-- [Project Name 2](link_to_project_2):
-- [Project Name 3](link_to_project_3):
+- [Area Calculation](https://github.com/ArtaHendraa/PBL/tree/main/Area%20Calculation)
+- [Project Name 2](link_to_project_2)
+- [Project Name 3](link_to_project_3)
 
 I will continue to add new projects to this repository over time, so be sure to check back regularly.
 
