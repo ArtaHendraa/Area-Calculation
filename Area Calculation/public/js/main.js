@@ -13,17 +13,13 @@ calcButton.addEventListener("click", () => {
     let h2 = document.createElement("h2");
     h2.innerHTML = `Square Area : ${resultSq}Cm<sup>2</sup>`;
     displayResult.appendChild(h2);
-  } else if (firstValue.value != secondValue.value) {
+  } else {
     let resultRt;
     resultRt = firstValue.value * secondValue.value;
     let h2 = document.createElement("h2");
     h2.innerHTML = `Rectangle Area : ${resultRt}Cm<sup>2</sup>`;
     displayResult.appendChild(h2);
-  } else {
-    let h2 = document.createElement("h2");
-    h2.innerHTML = "You need the add value";
-    displayResult.appendChild(h2);
   }
 });
 
-TODO: "fix else condition";
+
