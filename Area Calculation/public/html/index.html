@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/output.css" />
+    <title>Area Calculation</title>
+  </head>
+  <body class="font-Poppins bg-[#f9e625]">
+    <div
+      class="bg-white rounded-md h-[600px] w-[800px] mx-auto mt-[150px] flex flex-col items-center gap-7 justify-center relative"
+    >
+      <h1
+        class="absolute top-10 text-3xl font-semibold text-[#131327] tracking-wider"
+      >
+        Area Calculation
+      </h1>
+
+      <div class="bg-[#edeef0] flex w-[500px] h-16 mx-auto rounded-md mt-5">
+        <input
+          class="bg-transparent w-[500px] px-5 border-none focus:outline-[#f9e625] tracking-wider"
+          type="number"
+          min="1"
+          required
+          placeholder="Enter First Value"
+          id="first-value"
+        />
+      </div>
+
+      <div class="bg-[#edeef0] flex w-[500px] h-16 mx-auto rounded-md">
+        <input
+          class="bg-transparent w-[500px] px-5 border-none focus:outline-[#f9e625] tracking-wider"
+          type="number"
+          min="1"
+          required
+          placeholder="Enter Second Value"
+          id="second-value"
+        />
+      </div>
+
+      <div
+        class="border-b-2 border-[#f9e625] h-10 w-[500px] text-center mt-[20px]"
+        id="display-result"
+      >
+        <!--! ⬇⬇⬇ the result will be here ⬇⬇⬇-->
+      </div>
+
+      <button
+        type="button"
+        class="cursor-pointer bg-[#f9e625] text-white font-semibold h-[50px] w-[500px] flex items-center justify-center mt-5 rounded-sm tracking-widest cllick-effect duration-75"
+        id="calculate-btn"
+      >
+        Calculate Area
+      </button>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

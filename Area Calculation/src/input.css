@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h2 {
+    @apply font-semibold text-2xl text-[#131327];
+  }
+
+  .cllick-effect {
+    box-shadow: 0 5px 1px 1px #c5b61d;
+  }
+  .cllick-effect:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 0;
+  }
+}
